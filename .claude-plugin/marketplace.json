@@ -1,0 +1,14 @@
+{
+  "name": "es-kimo",
+  "description": "에이전트가 만든 코드를 머지 전에 거르는 리뷰 기준 모음",
+  "owner": {
+    "name": "Kihyun Ryu"
+  },
+  "plugins": [
+    {
+      "name": "review-kit",
+      "source": "./plugins/review-kit",
+      "description": "유지보수성, 테스트 품질, UI 일관성 리뷰. 구현 중 셀프 체크, PR 리뷰, 기존 코드 점검에 같은 기준을 쓴다."
+    }
+  ]
+}
